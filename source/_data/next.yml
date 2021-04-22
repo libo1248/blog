@@ -7,8 +7,8 @@ scheme: Mist
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  tags: /tags/ || fa fa-tags
-  categories: /categories/ || fa fa-th
+  #tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -59,3 +59,8 @@ local_search:
   unescape: false
   # Preload the search data when the page loads.
   preload: false
+
+tag_icon: true
+
+toc:
+  number: false  # 关闭目录中的数字编号
