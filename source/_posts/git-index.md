@@ -3,6 +3,7 @@ title: "git忽略已提交过的文件"
 date: 2021-04-14T14:55:38+08:00
 draft: false
 tags: ["git"]
+categories: ["技能"]
 ---
 
 .gitignore可以把没有提交过的文件忽略，那如果是已经提交的文件，本地修改了但是又不想提交，也不想在git status的时候看到，这个时候下面的指令就可以做到

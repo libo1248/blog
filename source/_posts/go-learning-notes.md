@@ -4,6 +4,7 @@ date: 2021-04-19T15:16:43+08:00
 draft: false
 auther: "大脸波"
 tags: ["go","golang","学习笔记"]
+categories: ["学习笔记"]
 ---
 
 ### 数组
