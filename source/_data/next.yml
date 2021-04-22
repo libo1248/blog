@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+
+# Schemes
+#scheme: Muse
+scheme: Mist
+#scheme: Pisces
+#scheme: Gemini
+
+
+sidebar:
+    position: right
+
+social:
+    GitHub: https://github.com/libo1248 || fab fa-github
+
+post_navigation: right
+
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  # See: https://github.com/chriskempson/tomorrow-theme
+  highlight_theme: normal
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Show text copy result.
+    show_result: true
+    # Available values: default | flat | mac
+    style: default
+
+reading_progress:
+  enable: true
+
+gitalk:
+  enable: true
+  github_id: libo1248 # GitHub repo owner
+  repo: blog # Repository name to store issues
+  client_id: 367983d6c6e706fe3c7a # GitHub Application Client ID
+  client_secret: a664de77c64825738b2f44977657964efe4c1bf3 # GitHub Application Client Secret
+  admin_user: libo1248 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  distraction_free_mode: true # Facebook-like distraction free mode
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language:
+
+local_search:
+  enable: true
