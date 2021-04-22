@@ -1,7 +1,3 @@
-# ---------------------------------------------------------------
-# Scheme Settings
-# ---------------------------------------------------------------
-
 # Schemes
 #scheme: Muse
 scheme: Mist
@@ -30,9 +26,6 @@ codeblock:
     # Available values: default | flat | mac
     style: default
 
-reading_progress:
-  enable: true
-
 gitalk:
   enable: true
   github_id: libo1248 # GitHub repo owner
@@ -48,3 +41,12 @@ gitalk:
 
 local_search:
   enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
