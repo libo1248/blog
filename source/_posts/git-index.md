@@ -13,6 +13,8 @@ git update-index --assume-unchanged [file-path]
 
 如果之后又想继续版控这些文件，下面的指令可以恢复
 
+<!--more-->
+
 ```bash
 git update-index --no-assume-unchanged [file-path]
 ```
