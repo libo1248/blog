@@ -118,14 +118,14 @@ categories: ["学习笔记"]
    遍历切片的方式和遍历数组的方式类似：
    ```go
    for i := range a {
-        fmt.Printf("a[%d]: %d\n", i, a[i])
-    }
-    for i, v := range b {
-        fmt.Printf("b[%d]: %d\n", i, v)
-    }
-    for i := 0; i < len(c); i++ {
-        fmt.Printf("c[%d]: %d\n", i, c[i])
-    }
+       fmt.Printf("a[%d]: %d\n", i, a[i])
+   }
+   for i, v := range b {
+       fmt.Printf("b[%d]: %d\n", i, v)
+   }
+   for i := 0; i < len(c); i++ {
+       fmt.Printf("c[%d]: %d\n", i, c[i])
+   }
    ```
    内置的泛型函数append可以在切片的尾部追加N个元素：
    ```go
