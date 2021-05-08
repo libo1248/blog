@@ -18,6 +18,8 @@ lsof, iftop, mtr, htop
 
 [dstat](http://dag.wiee.rs/home-made/dstat/)：期待已久的工具，要啥有啥，writing by python
 
+<!--more-->
+
 [glances](http://nicolargo.github.io/glances/)：界面类似nmon，但特别赞，writing by python，而且支持Web界面
 
 [netdata](https://my-netdata.io/)：基于web界面的主机全能图形化监控服务，writing by C，很酷炫
