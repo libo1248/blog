@@ -2,18 +2,12 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-title: DLB's Blog
+title: 大脸波的个人笔记
 subtitle: ''
 description: ''
 keywords:
-author: DLB
+author: 大脸波
 language: zh-CN
 timezone: ''
 url: https://o0o0o0o.ml
 theme: next
-
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
